@@ -27,8 +27,8 @@ export class CarouselComponent implements AfterViewInit {
     console.log(this.itemsElements);
     setTimeout(() => {
       console.log(this.itemsElements);
-      //this.itemWidth = this.itemsElements.first.nativeElement.getBoundingClientRect().width;
-      //this.carouselWrapperStyle = {width: `${this.itemWidth}px` };
+      // this.itemWidth = this.itemsElements.first.nativeElement.getBoundingClientRect().width;
+      // this.carouselWrapperStyle = {width: `${this.itemWidth}px` };
     });
   }
 
